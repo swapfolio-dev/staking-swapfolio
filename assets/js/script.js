@@ -174,7 +174,7 @@ $(function() {
 
             $('#stake-message').css({ 'display': 'block' });
             $('#stakeTransactionLink').css({ 'display': 'block' }); // show stake transaction link
-            $('#stakeTransactionLink').attr("href", 'https://ropsten.etherscan.io/tx/' + hash); // update transaction link
+            $('#stakeTransactionLink').attr("href", 'https://etherscan.io/tx/' + hash); // update transaction link
 
         }).on('confirmation', function(confirmationNumber, receipt) {
 
@@ -230,7 +230,7 @@ $(function() {
 
             $('#funds-message').css({ 'display': 'block' });
             $('#transactionLink').css({ 'display': 'block' }); // show funds transaction link
-            $('#transactionLink').attr("href", 'https://ropsten.etherscan.io/tx/' + hash); // update transaction link
+            $('#transactionLink').attr("href", 'https://etherscan.io/tx/' + hash); // update transaction link
 
         }).on('confirmation', function(confirmationNumber, receipt) {
 
@@ -271,7 +271,7 @@ $(function() {
 
             $('#withdraw-message').css({ 'display': 'block' });
             $('#withdrawTransactionLink').css({ 'display': 'block' }); // show withdraw transaction link
-            $('#withdrawTransactionLink').attr("href", 'https://ropsten.etherscan.io/tx/' + hash); // update transaction link
+            $('#withdrawTransactionLink').attr("href", 'https://etherscan.io/tx/' + hash); // update transaction link
 
         }).on('confirmation', function(confirmationNumber, receipt) {});
     });
